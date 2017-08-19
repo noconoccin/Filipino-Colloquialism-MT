@@ -22,7 +22,7 @@ I. Under the Package:
 	\translate.py		- Tensorflow Libraries for Sequence-to-Sequence Model
 	\decode.py		- API for Translation
 	\main.py		- Sample Code for using decode.py API
-	\fcmt.py		- Interactive Loop Program implementing Filipino Colloquialism Machine Translator
+	\fcmt.py		- Interactive Loop Program implementing Filipino Colloquialism MT
 	data\ 			- Train.* and Test.* files
 	data\train		- Directory for adding the training model
 
