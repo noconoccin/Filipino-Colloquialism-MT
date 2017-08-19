@@ -20,11 +20,11 @@ I. Under the Package:
 	\data_utils.py 		|
 	\seq2seq_model.py 	|
 	\translate.py		- Tensorflow Libraries for Sequence-to-Sequence Model
-	\decode.py			- API for Translation
-	\main.py			- Sample Code for using decode.py API
-	\fcmt.py			- Interactive Loop Program implementing Filipino Colloquialism Machine Translator
-	data\ 				- Train.* and Test.* files
-	data\train 			- Directory for adding the training model
+	\decode.py		- API for Translation
+	\main.py		- Sample Code for using decode.py API
+	\fcmt.py		- Interactive Loop Program implementing Filipino Colloquialism Machine Translator
+	data\ 			- Train.* and Test.* files
+	data\train		- Directory for adding the training model
 
 II. System Requirements:
 -----------------------------------------------------------------------------------------------------------
@@ -56,12 +56,12 @@ V. Building the FCMT Model:
 	2) Navigate to the downloaded FCMT folder by typing:
 	cd [directory]/FilipinoColloquialismMachineTranslator
 	(ex. cd C:\Users\Username\Python_Files\Translator_Project\FilipinoColloquialismMachineTranslator)
-	3) Type 'python translate.py' to initiate model training. Global steps built for FCMT is 8200, but you 
-	can exceed the given value to experience better performance. Also, feel free to modify our translator 
-	(see Section VIII for more details) and if FCMT's performance increased, let us know about it so we can 
-	update our software.
-	4) Training the model is stopped (Ctrl+C) manually at any step, recording sequences in every 200 steps. 
-	The trained model will be stored at data\train directory.
+	3) Type 'python translate.py' to initiate model training. Global steps built for FCMT is 8200, but 
+	you can exceed the given value to experience better performance. Also, feel free to modify our 
+	translator (see Section VIII for more details) and if FCMT's performance increased, let us know about 
+	it so we can update our software.
+	4) Training the model is stopped (Ctrl+C) manually at any step, recording sequences in every 200 
+	steps. The trained model will be stored at data\train directory.
 	* Alternative: download the full package on our Google Drive - https://goo.gl/nRCeV4
 		
 VI. How to use:
