@@ -58,8 +58,8 @@ V. Building the FCMT Model:
 	(ex. cd C:\Users\Username\Python_Files\Translator_Project\FilipinoColloquialismMachineTranslator)
 	3) Type 'python translate.py' to initiate model training. Global steps built for FCMT is 8200, but 
 	you can exceed the given value to experience better performance. Also, feel free to modify our 
-	translator (see Section VIII for more details) and if FCMT's performance increased, let us know about 
-	it so we can update our software.
+	translator (see Section VIII for more details) and if FCMT's performance increased, let us know 
+	about it so we can update our software.
 	4) Training the model is stopped (Ctrl+C) manually at any step, recording sequences in every 200 
 	steps. The trained model will be stored at data\train directory.
 	* Alternative: download the full package on our Google Drive - https://goo.gl/nRCeV4
